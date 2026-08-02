@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: votizen.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 22 16:00:37 2026 GMT
+  hsts: false
+domains:
+- domain: votizen.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false
